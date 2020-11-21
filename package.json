@@ -1,12 +1,11 @@
 {
-  "name": "testapp",
+  "name": "ts-knockout-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "npx webpack"
   },
-  "author": "",
+  "author": "NukeDev",
   "license": "ISC",
   "dependencies": {
     "@profiscience/knockout-contrib-router": "^2.1.5",
