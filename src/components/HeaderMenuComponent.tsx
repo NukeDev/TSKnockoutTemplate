@@ -2,8 +2,12 @@ import * as ko from "knockout";
 import * as React from "../utils/JSXUtils";
 
 export class HeaderMenu{
-    SiteTitle: ko.Observable<string> = ko.observable("")
+
+    SiteTitle: ko.Observable<string> = ko.observable("Test");
+
+    
 }
+
 
 ko.components.register("header-menu", {
     viewModel: {
@@ -14,7 +18,7 @@ ko.components.register("header-menu", {
                 
                 <div>
                 <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Expand at xl</a>
+                <a class="navbar-brand" href="#" data-bind="text: SiteTitle"></a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>

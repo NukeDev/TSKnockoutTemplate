@@ -1,2 +1,7 @@
 @import "/node_modules/normalize.css/normalize";
-@import "/node_modules/bootstrap/dist/css/bootstrap.min";
+
+$primary: rgb(245, 102, 19);
+$danger: red;
+$dark: rgb(0, 49, 68);
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
